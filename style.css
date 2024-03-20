@@ -22,7 +22,26 @@ body {
 }
 
 .display {
-    font-size: 64px;
+    font-size: 40px;
     color: rgb(219, 219, 219);
     padding: 16px 0px;
+}
+
+.row,
+.last-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+button {
+    height: 32px;
+    width: 32px;
+    border-radius: 5px;
+    border: none;
+}
+
+.result {
+    flex: 2;
 }
