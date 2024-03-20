@@ -25,6 +25,7 @@ body {
     font-size: 40px;
     color: rgb(219, 219, 219);
     padding: 16px 0px;
+    text-align: right;
 }
 
 .row,
@@ -40,8 +41,19 @@ button {
     width: 32px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    background-color: rgb(105, 105, 105);
+    color: rgb(218, 141, 0);
+    font-weight: bold;
 }
+
+.digit {
+    color: white;
+}
+
 
 .result {
     flex: 2;
+    background-color: rgb(218, 141, 0);
+    color: white;
 }
