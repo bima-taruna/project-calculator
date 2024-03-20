@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Roboto, sans-serif;
 }
 
 .calc-body {
@@ -18,4 +19,10 @@ body {
     padding: 16px;
     display: flex;
     flex-direction: column;
+}
+
+.display {
+    font-size: 64px;
+    color: rgb(219, 219, 219);
+    padding: 16px 0px;
 }
